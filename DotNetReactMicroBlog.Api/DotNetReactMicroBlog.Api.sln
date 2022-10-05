@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetReactMicroBlog.Api", "DotNetReactMicroBlog.Api.csproj", "{3F43FE00-9A23-4F3A-A497-035B1A8DDC2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F22C3CE3-44A7-4895-B594-ABA182F5229C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{9E7B4DA2-D300-4CEF-9F54-DFAF2EDB13ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetReactMicroBlog.Api.UnitTests", "..\DotNetReactMicroBlog.Api.UnitTests\DotNetReactMicroBlog.Api.UnitTests.csproj", "{44196ABD-ED90-4918-BC39-39F36FBEF1C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F43FE00-9A23-4F3A-A497-035B1A8DDC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F43FE00-9A23-4F3A-A497-035B1A8DDC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F43FE00-9A23-4F3A-A497-035B1A8DDC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F43FE00-9A23-4F3A-A497-035B1A8DDC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44196ABD-ED90-4918-BC39-39F36FBEF1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44196ABD-ED90-4918-BC39-39F36FBEF1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44196ABD-ED90-4918-BC39-39F36FBEF1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44196ABD-ED90-4918-BC39-39F36FBEF1C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D1B4DCB-8085-44BF-8E67-4B3210E7A5AC}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E7B4DA2-D300-4CEF-9F54-DFAF2EDB13ED} = {F22C3CE3-44A7-4895-B594-ABA182F5229C}
+		{44196ABD-ED90-4918-BC39-39F36FBEF1C1} = {9E7B4DA2-D300-4CEF-9F54-DFAF2EDB13ED}
+	EndGlobalSection
+EndGlobal

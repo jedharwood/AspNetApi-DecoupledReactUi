@@ -1,0 +1,50 @@
+.header-background {
+  background-color: $slate-800;
+}
+
+.header-background-inner {
+  max-width: 80rem;
+}
+
+.nav-container {
+  min-height: 80px;
+}
+
+.logo-link {
+  color: $teal-500;
+  text-decoration: none;
+  &:hover {
+    color: $teal-300;
+    text-decoration: underline;
+  }
+}
+
+.burger-inset {
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.burger-menu {
+  color: $gray-400;
+  &:hover {
+    color: $white;
+    background-color: $slate-700;
+  }
+}
+
+.nav-menu {
+  transform-origin: top right;
+  right: 0px;
+  width: 13rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  z-index: 1;
+}
+
+.nav-link {
+  color: $gray-700;
+  cursor: pointer;
+  &:hover {
+    background-color: $gray-100;
+  }
+}

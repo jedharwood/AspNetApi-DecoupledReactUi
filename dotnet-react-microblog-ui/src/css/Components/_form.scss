@@ -1,0 +1,35 @@
+.form-input {
+  color: $gray-900;
+  border-color: $gray-300;
+}
+
+input {
+  box-sizing: border-box;
+  appearance: none;
+}
+
+textarea {
+  resize: none;
+  box-sizing: border-box;
+  min-height: 100px;
+  appearance: none;
+}
+
+.custom-button {
+  border: none;
+  color: $white;
+  font-weight: 600;
+  background-color: $teal-500;
+  &:hover {
+    background-color: $teal-300;
+  }
+  &:disabled {
+    background-color: $teal-700;
+    cursor: default;
+  }
+}
+
+.error-message {
+  color: $rose-500;
+  font-size: 12px;
+}

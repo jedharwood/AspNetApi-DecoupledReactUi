@@ -1,0 +1,18 @@
+.article-card {
+  border: 2px solid $teal-500;
+  cursor: pointer;
+  &:hover {
+    background-color: $teal-500;
+    color: $white;
+  }
+}
+
+.tool-tip {
+  background-color: $slate-800;
+  opacity: 0.9;
+  color: $gray-100;
+}
+
+.popup-arrow {
+  display: none;
+}

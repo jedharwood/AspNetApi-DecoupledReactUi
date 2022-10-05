@@ -1,0 +1,8 @@
+.close-button {
+  color: $teal-500;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: $teal-300;
+  }
+}
