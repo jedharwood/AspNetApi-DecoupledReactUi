@@ -1,4 +1,5 @@
 # Getting started
+ASP.Net Api serving a decoupled React/Redux SPA.
 
 ## Requirements
 
